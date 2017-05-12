@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Crackert - Beta</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcJxwAHCccBNyoG9EcqFwaHGhb3RyoHBucaBwWHCfbzBvnm0FcJ9uAAAAAAAAAAAAAAAAAAAAAABwkXAAAABiAHGfcDlyoHClcqFw3nKhcPhyoXD/cqFw/HKhcOxyoXDHcqFwG3KhcAAAAAAAAAAAAAAAAAAAAAAAdKlyAHCebjJxoHDGcqFw/XGhcNZxoHBxcKBvQ3Gfb0txoG9wcaBws3GgcB9xoHAAAAAAAAAAAAAAAAAAAAAAAHKebw5yoG+OcqFw/3Khb9txoG4/aZptBHubgwBYh2QAb55sBXGgcBBxoHADcaBwAAAAAAAAAAAAAAAAAAAAAAByoW8lcqFv03KhcP9yoW+LcJ9tC3GgbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcaBvL3Ggb/JyoXD/cqBwZnancgBumm4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHGgby9xoG/ycqFw/3KgcGZ2p3IAbptuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByoW8lcqFv03KhcP9xoHCMbpxuDG+ebwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcp5uDnKgcI5yoXD/cqFw3HGfbkFsl24EeJV+AP/pwABwnW4FcaBwEXGgcANxoHAAAAAAAAAAAAAAAAAAAAAAAHSrdABwn28xcaFwxnKhcP1xoG/XcZ9wcnGfb0Jxn29GcqBvcHGgcLRxoHAecaBwAAAAAAAAAAAAAAAAAAAAAABwkXAAAABwAHGfcDlyoXClcqFw3nKhcPlyoXD/cqFw/HKhcOxyoXDHcqBwG3KgcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxoG4AcaBuE3Kgb0RyoXBocqBvdHKgcG5xoG9Ycp9vMHKdbgVynm8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AADgHwAAgB8AAIAfAAAAHwAAB/8AAA//AAAP/wAAB/8AAAEfAACAHwAAgB8AAOAfAAD//wAA//8AAA==" />
+  
+
+  <link rel="stylesheet" href="/css/w3.css">
+
+  <style>
+    body,h1,h2{font-family: monospace}
+    body, html {height: 100%; }
+    p {line-height: 2}
+  </style>
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  
+</head>
+
+<body>
+
+
+  <div class="w3-container w3-padding-64 w3-pale-blue w3-grayscale-min" id="us">
+    <div class="w3-content w3-center">
+      <h2 class="w3-center w3-text-grey"><font class="w3-text-green">beta</font>.crackert.com</h2>
+      <h2 class="w3-center w3-text-grey"><font class="w3-text-green">Free</font> DNS API</h2>
+      <a href="https://github.com/DutchGraa/crackert.com.docs" target="_blank"><button class="w3-btn w3-round w3-border w3-text-green w3-light-grey">About</button></a>
+    </div>
+  </div>
+
+[MESSAGE]
+
+
+<div class="w3-container w3-padding-64 w3-white w3-grayscale-min">
+  <div class="w3-content w3-center w3-middle">
+        <h1 class="w3-center w3-text-green">Create</h1>
+    
+      <form action="/" method="POST">
+        <p> 
+            <input class="w3-input w3-validate" type="email" placeholder="Enter email" name="email" required>
+        </p>
+
+        <p>
+          <center><div class="g-recaptcha" data-sitekey="6Ldw4BUUAAAAAHVVnmOD6Je5Oq79TQMv9M7Iibdi"></div></center>
+        </p>
+
+        <p>
+          <button class="w3-btn w3-pale-blue w3-text-green w3-border w3-round">Register</button>
+        </p>
+
+      </form>
+  </div>
+</div>
+
+
+</body>
+</html>

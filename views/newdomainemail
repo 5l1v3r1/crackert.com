@@ -1,0 +1,25 @@
+Hello,
+<br><br>
+Your subdomain has been activated! It is located at:
+<br><br>
+[SUBDOMAIN].crackert.com
+<br><br>
+The token for updating your DNS entry is:
+<br><br>
+[TOKEN]
+<br><br>
+API usage:
+<br><br>
+curl -s "https://www.crackert.com/?token=[TOKEN]&ip=newipaddress"
+<br>
+For changing to a certain IP or:
+<br>
+curl -s "https://www.crackert.com/?token=[TOKEN]&ip=this"
+<br>
+For changing the DNS entry to the IP performing the API call.
+<br><br>
+After a call to the endpoint, the DNS entry will be updates within 10 minutes.
+<br><br>
+With kind regards,
+<br><br>
+Crackert.com
